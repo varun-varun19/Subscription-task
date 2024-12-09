@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    background-color: palevioletred;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.box__title{
+    text-align: center;
+    padding: 10px;
+}
+
+ul{
+    border: 2px solid white;
+    list-style: none;
+    
+}
+
+li{
+    padding: 10px;
+}
