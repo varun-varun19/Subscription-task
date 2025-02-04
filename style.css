@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", serif;
+}
+
+.header{
+    text-align: center;
+    background-color: palevioletred;
+    padding: 10px;
+}
+
+.box{
+    background-color: black;
+    width: 220px;
+    height: 310px;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.box__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.box__title{
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+ul{
+    border: 4px solid white;
+    list-style: none;
+    padding: 10px;
+}
+
+li{
+    padding: 5px;
+}
